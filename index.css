@@ -10,9 +10,8 @@ body {
   font-size: 1em;
 }
 
-.wrapper {
+.Main-Calendar {
   margin: 0 auto;
-  /* max-width: 100vw; */
   max-width: 400px;
 }
 
@@ -43,6 +42,11 @@ body {
   border: 1px solid #0e0e0e;
   text-align: center;
   vertical-align: top;
+}
+
+.table-calendar td:hover {
+  background-color: rgba(0, 18, 0, 0.095);
+  cursor: pointer;
 }
 
 .date-picker.selected span {
@@ -130,6 +134,10 @@ body {
   color: white;
   width: 140px;
   cursor: pointer;
+}
+
+.Enter-Btn:hover {
+  background-color: green;
 }
 
 .white {
